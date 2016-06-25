@@ -25,7 +25,6 @@ We work in weekly segments:
 - **Week 3+**: Work according the plan
 - **Final Week**: End game
   - the team tests the new features according a test plan and updates the documentation. 
-  - we make a pre-release available on the 'insiders' channel and invite users to help us test the pre-release.
 
 ## Triage
 Bugs and features will be assigned a milestone and within a milestone they will be assigned a priority. The priority dictates the order in which issues should be addressed. A `important` bug (something that we think is critical for the milestone) is to be addressed before the other bugs. 
@@ -39,7 +38,5 @@ Each week we will manage work items, crossing off completed features, and triagi
 
 ## End Game
 The final week of the milestone is what we call the "end game". During this week we will wrap up any feature work, we will test using a test plan [[Iteration Plans]], and then we will fix the critical bugs for that milestone.
-
-During the endgame we make a build available on the `insiders` channel ([see also](https://code.visualstudio.com/Docs/supporting/FAQ#_how-can-i-test-prerelease-versions-of-vs-code). We will monitor incoming issues from this release, fix any critical bugs that arise, and then produce a final `stable` release for the milestone and the `stable` channel.
 
 Before we publish builds we manually execute the [[Smoke Test]] on all supported platforms.
